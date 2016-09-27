@@ -1,0 +1,13 @@
+
+body {
+    background-image: url("images/cloud.jpg");
+    background-repeat: no-repeat;
+    background-size: 1375px 650px;
+    background-attachment: fixed;
+    
+    
+}
+p {
+    
+    text-indent: 35px;
+}
