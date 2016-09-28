@@ -1,13 +1,33 @@
 
+
+p {
+    border-style: solid;
+    border-width: 5px;
+} 
 body {
-    background-image: url("images/cloud.jpg");
+    
+    background-image: url("images/ling ling.jpg");
     background-repeat: no-repeat;
     background-size: 1375px 650px;
     background-attachment: fixed;
-    
+    font-family:"Comic Sans MS", fantasy;
+    color:#000000; 
     
 }
 p {
     
     text-indent: 35px;
 }
+tr{  border: 1px solid #ffffff;
+    text-align: center;
+    background-color: #FFA500;
+     border-style: solid;
+     border-width: 5px;
+}
+div.hobbies{
+        background-color: #FFA500;
+     border-style: solid;
+     border-width: 5px;
+    
+}
+tr:hover{background-color: #E0F2F7}
