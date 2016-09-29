@@ -28,7 +28,7 @@
 .nav a:active {
   background-color: #fff;
   color: #444;
-  cursor: #0fc165
+  cursor: default:#fff
 }
  
 @media screen and (min-width: 600px) {
@@ -40,21 +40,11 @@
     font-size: 1.4em;
   }
  
-
+  
   .nav li {
     display: inline-block;
     margin-right: -4px;
   }
  
- 
-}
-body {
-    
-    background-image: url("images/giphy.gif");
-    background-repeat: no-repeat;
-    background-size: 1375px 650px;
-    background-attachment: fixed;
-    font-family:"Comic Sans MS", fantasy;
-    color:#000000; 
-    
+  
 }

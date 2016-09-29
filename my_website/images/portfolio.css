@@ -4,7 +4,7 @@
   text-align: center;
   padding: 0;
   margin: 0;
-  border-bottom: 4px solid #666dff;
+  border-bottom: 4px solid white;
 }
 .nav li {
   font-family: 'Oswald', sans-serif;
@@ -22,13 +22,13 @@
 }
  
 .nav a:hover {
-  background-color: #0fc165;
+  background-color: #005f5f;
 }
  
-.nav a:active {
+.nav a.active {
   background-color: #fff;
   color: #444;
-  cursor: #0fc165
+  cursor: default;
 }
  
 @media screen and (min-width: 600px) {
@@ -40,21 +40,23 @@
     font-size: 1.4em;
   }
  
-
+  /* Option 1 - Display Inline */
   .nav li {
     display: inline-block;
     margin-right: -4px;
   }
  
- 
-}
-body {
-    
-    background-image: url("images/giphy.gif");
-    background-repeat: no-repeat;
-    background-size: 1375px 650px;
-    background-attachment: fixed;
-    font-family:"Comic Sans MS", fantasy;
-    color:#000000; 
-    
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
 }
