@@ -28,7 +28,7 @@
 .nav a:active {
   background-color: #fff;
   color: #444;
-  cursor: default:#fff
+  cursor: default:#fff;
 }
  
 @media screen and (min-width: 600px) {

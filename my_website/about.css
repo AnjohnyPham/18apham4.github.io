@@ -5,8 +5,8 @@ p {
     border-width: 5px;
 } 
 body {
-    
-    background-image: url("images/mint.jpg");
+    cursor: url("Mudkip.cur"), auto;
+    background-image: url("images/ko.jpg");
     background-repeat: no-repeat;
     background-size: 1375px 650px;
     background-attachment: fixed;
@@ -76,3 +76,6 @@ tr{  border: 1px solid #ffffff;
  
 }
 tr:hover{background-color: #a3b0ab}
+head{
+  cursor: url("Mudkip.cur"), auto;
+}

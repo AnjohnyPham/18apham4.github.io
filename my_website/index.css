@@ -49,7 +49,7 @@
  
 }
 body {
-    
+     cursor: url("Mudkip.cur"), auto;
     background-image: url("images/giphy.gif");
     background-repeat: no-repeat;
     background-size: 1375px 650px;
@@ -57,4 +57,7 @@ body {
     font-family:"Comic Sans MS", fantasy;
     color:#000000; 
     
+}
+head{
+  cursor: url("Mudkip.cur"), auto;
 }
